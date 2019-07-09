@@ -1,0 +1,53 @@
+.register-grid-container {
+	display: grid;
+	grid-template-columns: max-content auto;
+	grid-gap:10px 10px;
+	padding: 20px;
+	background-color: rgba(46,64,94,0.5);
+}
+
+.register-grid{
+	padding: 20px;
+	font-size: 30px;
+	color: #f0f0f0;
+	background:darkgrey;
+}
+
+.registercard{
+  background-color: rgba(46,64,94,0.5);
+  padding:20px;
+  margin:10px;
+  overflow: auto;
+  max-width:60%;
+  color:#f0f0f0;
+}
+
+.register-line{
+	padding:5px;
+}
+	
+@media only screen and (max-width: 600px){
+	.register-grid{
+	padding:5px;
+	font-size: 30px;
+	}
+	
+	.register-grid-container {
+	display: grid;
+	grid-template-columns: max-content auto;
+	grid-gap:5px 5px;
+	padding:10px;
+	}
+	
+	.registercard{
+	padding:10px;
+	margin:10px;
+	overflow: auto;
+	max-width:95%;
+	}
+	
+	.register-line{
+	padding:2px;
+	font-size:12px;
+	}
+}
