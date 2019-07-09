@@ -1,0 +1,114 @@
+.partner-grid-container {
+	display: grid;
+	grid-template-columns: max-content auto;
+	grid-gap:20px 20px;
+	padding: 20px;
+	margin-left:4vw;
+	margin-right:4vw;
+	background-color:lightgrey;
+}
+
+.partner-grid{
+	padding: 20px;
+	font-size: 30px;
+	color: #f0f0f0;
+	background:darkgrey;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  background-color: rgba(46,64,94,0.5);
+  padding: 20px;
+  margin:10px;
+  overflow: auto;
+  color:#f0f0f0;
+}
+
+.sw-card {
+  background-color: rgba(46,64,94,0.5);
+  padding: 20px;
+  margin:10px;
+  overflow: hidden;
+  color:#f0f0f0;
+}
+
+.teammemberphoto{
+	float: left;
+	display:inline-block;
+	max-width:100px;
+}
+
+.teammembertext{
+	float: left;
+	padding-left: 15px;
+	width:75%;
+}
+
+.teamleftcolumn{
+	float: left;
+	width: 48%;
+}
+
+.teamrightcolumn{
+	margin-left:10px;
+	float: left;
+	width: 48%;
+}
+
+.aboutleftcolumn{
+	float: left;
+	width: 90%;
+}
+
+.aboutrightcolumn{
+	float: right;
+	width: 90%;
+}
+
+.teammember{
+	background-color: rgba(46,64,94,0.5);
+	padding:15px;
+}
+
+@media only screen and (max-width: 600px){
+	
+	.aboutleftcolumn{
+	float: left;
+	width: 95%;
+	}
+
+	.aboutrightcolumn{
+	width: 95%;
+	float:left;
+	}
+	
+	.teamleftcolumn{
+	float: left;
+	width: 100%;
+	}
+
+	.teamrightcolumn{
+	margin-top:10px;
+	margin-left:0px;
+	float: left;
+	width: 100%;
+	}
+	
+	.teammembertext{
+	float: left;
+	width:100%;
+	padding-left: 0px;
+	margin-top: 10px;
+	}
+	
+	.teammemberphoto{
+	float: left;
+	display:inline-block;
+	max-width:150px;
+	}
+}
