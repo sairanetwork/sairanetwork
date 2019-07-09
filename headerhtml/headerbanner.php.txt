@@ -1,0 +1,11 @@
+<div class="header">
+	<div class="header title">
+			<center>
+				<a class="header" href="index.php?">
+				<img src="graphics/logos/sairalogo.jpg" alt="SAIRA Logo" style="vertical-align:middle; max-height:7vh; max-width:15%;">
+				<span class="headertext" style="vertical-align:middle;margin-right:10px;margin-left:10px;">SAIRA Network</span>
+				<img src="graphics/logos/ssclogo.png" alt="Surrey Space Centre Logo" style="vertical-align:middle; max-height:7vh; max-width:15%; ">
+			</a>
+			</center>
+	</div>	
+</div>	
